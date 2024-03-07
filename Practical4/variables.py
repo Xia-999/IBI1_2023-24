@@ -9,5 +9,16 @@ elif d<e:
     print("the second month's improvement is greater")
 else:
     print("two months' improvements are equa")
-# if True, the first month's improvement is greater
-# if False, the second month's improvement is greater
+
+X=False
+Y=True
+if X==Y:
+    W=False
+else:
+    W=True
+print(W)
+# X    Y     W
+#True True  False
+#True  False True
+#False True  True
+#False False False
