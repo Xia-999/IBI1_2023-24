@@ -62,8 +62,18 @@ print("The percentage of identical amino acid between human's sequence and mouse
 print("The percentage of identical amino acid between human's sequence and mouse's sequence is",human_rat2)
 print("The percentage of identical amino acid between human's sequence and mouse's sequence is",mouse_rat2)
 
-#Rat'sequence and mouse'sequence are most closely related
-#Mouse is a	better model organism for human based on the data analysed here.	
+if human_mouse1>human_rat1 and human_mouse1>mouse_rat1:
+    print("Human's sequence and mouse's sequence are most closely ralated")
+elif human_rat1>human_mouse1 and human_rat1>mouse_rat1:
+    print("Human's sequence and rat's sequence are most closely ralated")
+else:
+    print("Rat's sequence and mouse's sequence are most closely ralated")
+      
+if human_mouse1>human_rat1:
+    print("Mouse is a better model organism for human based on the data analysed here.")
+elif human_mouse1<human_rat1:
+    print("Rat is a	better model organism for human based on the data analysed here.")
+
 
 
     
